@@ -1,1 +1,41 @@
-MATHAN 
+<!DOCTYPE>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Booksky</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Booksky</h1>
+    </div>
+    
+    <div class="container">
+      <div class="book-container">
+        <h2>Rich Dad Poor Dad</h2>
+        <h3>Robert</h3>
+        <p>ependsknsksnsisbsjnssj jsjsbsjjsbsjdjd jendindidjd didnejdbdisnsis djebsisn</p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+    </div>
+ 
+    
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+      <h1>Add Book</h1>
+      <form>
+        <input type="text" placeholder="Book Title" id="book-title-input" />
+        <input type="text" placeholder="Book Author" id="book-author-input"/>
+        <textarea placeholder="Short description" id="Short-description-textarea"></textarea>
+        <button class="add-title">ADD</button>
+        <button class="cancel-popup">CANCEL</button>
+      </form>
+    </div>
+    
+    <button class="add-button" id="add-popup-button" onclick="btn()">+</button>
+    
+   
+    
+    <script src="script.js"></script>
+  </body>
+</html>
